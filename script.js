@@ -38,7 +38,7 @@ alert("FORM WORKING");
             const encodedMessage = encodeURIComponent(whatsappMessage);
             const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
 
-            fetch("https://script.google.com/macros/s/AKfycbwaWAf1KjQh5kpoUAxfb6lbKs7JP8X2nii6Auq2DHdV1F6Q1RHYUcS2OhOWUgRs7ijz/exec", {
+            fetch("https://script.google.com/macros/library/d/1AsNNZ0EsC5gX5a08ADf3ffFvNYZ55SW9W3aRS_rlCbuCzv6-TnVApjwq/3", {
     method: "POST",
     headers: {
         "Content-Type": "text/plain;charset=utf-8"
